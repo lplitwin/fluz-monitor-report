@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fluz Potential Targets</title>
+  <style>
+    :root { color-scheme: light dark; --bg:#f6f7f9; --card:#fff; --text:#202124; --muted:#60646c; --line:#dfe3e8; --link:#1769aa; --head:#eef3f8; }
+    @media (prefers-color-scheme: dark) { :root { --bg:#111418; --card:#1a1f25; --text:#eef1f4; --muted:#aeb6c0; --line:#39424c; --link:#79b8ff; --head:#252c34; } }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--text); font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif; }
+    main { width:min(1180px, calc(100% - 32px)); margin:32px auto; background:var(--card); padding:28px; border:1px solid var(--line); border-radius:14px; box-shadow:0 6px 24px rgba(0,0,0,.08); }
+    h1 { margin-top:0; } h2 { margin-top:2rem; border-bottom:1px solid var(--line); padding-bottom:.35rem; }
+    p { color:var(--muted); } a { color:var(--link); }
+    .table-wrap { overflow-x:auto; border:1px solid var(--line); border-radius:10px; }
+    table { width:100%; border-collapse:collapse; min-width:760px; }
+    th,td { padding:10px 12px; text-align:left; vertical-align:top; border-bottom:1px solid var(--line); }
+    th { background:var(--head); } tr:last-child td { border-bottom:0; }
+    .warning { padding:12px 14px; border-left:4px solid #d97706; background:color-mix(in srgb, #d97706 10%, transparent); color:var(--text); }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Fluz potential targets</h1>
+  <p class="warning"><strong>Last checked August 16, 2026 at 2:51 PM Central.</strong> Hourly monitoring and today’s catalog discovery are active. The catalog has 63 pages with explicit detail statuses and the deterministic cursor is at Park National Bank. Synchrony increased 23,154 → 23,155 (+1 over 1h02m25s); the other seven monitored count pages were unchanged. Papaya Payments was newly found with a 28-transaction baseline. Four new no-count compatibility candidates were added. Transaction growth indicates current use, not guaranteed cashback. “User-confirmed payout” means cashback was reported as actually posting. No-count candidates are best approached by finding someone who already has the relevant account.</p>
+
+  <h2>Current count evidence</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Merchant</th><th>Current evidence</th><th>Reward evidence</th><th>Suggested handling</th></tr></thead>
+    <tbody>
+      <tr><td><a href="https://fluz.app/store/synchrony-financial-office/cashback-card">Synchrony Financial Office</a></td><td>Confirmed increasing; +23 over 35h32m (about 16/day); 23,155 current count</td><td>User-confirmed approximately 2% or 2.2% by phone</td><td>Payout-confirmed priority</td></tr>
+      <tr><td><a href="https://fluz.app/store/western-union/cashback-card">Western Union</a></td><td>Confirmed increasing; +113 over 35h32m (about 76/day); 198,191 current count</td><td>User reports low current WUBP payout</td><td>Moderate-activity target signal, but low-value at present; do not linearize its uneven three-year history—use rolling trends as history accumulates</td></tr>
+      <tr><td><a href="https://fluz.app/store/ACI-Payments">ACI Payments</a></td><td>Confirmed increasing; +6 over 35h32m (about 4/day); 4,661 current count</td><td>Advertised 0.4%; posting unverified</td><td>Low-volume, low-reward monitor</td></tr>
+      <tr><td><a href="https://fluz.app/store/afterpay">Afterpay</a></td><td>Single-interval increase: 161 → 162; about 1/day over the available 35h32m history</td><td>Advertised 1.5%; posting unverified</td><td>Low-activity buy-now-pay-later target signal; seek an existing-account match</td></tr>
+      <tr><td><a href="https://fluz.app/store/afriex">Afriex</a></td><td>New baseline: 87 processed transactions; current growth not yet established</td><td>Advertised 1.5%; posting unverified</td><td>Money-transfer candidate; monitor hourly for the first increase</td></tr>
+      <tr><td><a href="https://fluz.app/store/open-banking-payment">Open Banking Payment</a></td><td>New baseline: 1,432 processed transactions; current growth not yet established</td><td>Advertised 1.5%; posting unverified</td><td>Direct-payment candidate; monitor hourly for the first increase</td></tr>
+      <tr><td><a href="https://fluz.app/store/papaya-payments">Papaya Payments</a></td><td>New baseline: 28 processed transactions; current growth not yet established</td><td>Advertised 1.5%; posting unverified</td><td>Payment-platform candidate; monitor hourly for the first increase</td></tr>
+      <tr><td><a href="https://fluz.app/store/langley-federal-credit-union/cashback-card">Langley Federal Credit Union</a></td><td>59 lifetime; no growth during the observed day</td><td>Advertised 1.5%, but the user's three BIN tests earned 0%</td><td>Monitor only unless terms or count change</td></tr>
+      <tr><td><a href="https://fluz.app/store/baxter-credit-union/cashback-card">Baxter Credit Union</a></td><td>3,521 lifetime; no growth during the observed day</td><td>Current offer 0%</td><td>Monitor only</td></tr>
+    </tbody>
+  </table></div>
+
+  <h2>Credit-union account matches — positive advertised reward, no count</h2>
+  <p>These are the best names to ask friends about because an existing account may allow cautious verification without opening a new relationship.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Credit union</th><th>Known payment context</th><th>Handling note</th></tr></thead>
+    <tbody>
+      <tr><td><a href="https://fluz.app/store/1st-MidAmerica-Credit-Union">1st MidAmerica Credit Union (MACU)</a></td><td>Loan, mortgage, Visa-card and bill payments</td><td>Previously used; <strong>volume-sensitive</strong>—avoid meaningful volume</td></tr>
+      <tr><td><a href="https://fluz.app/store/4front-credit-union">4Front Credit Union</a></td><td>Credit-union virtual-card payment page</td><td>Account-match priority</td></tr>
+      <tr><td><a href="https://fluz.app/store/achieva-credit-union">Achieva Credit Union</a></td><td>Loan and credit-card bill payments</td><td>Account-match priority</td></tr>
+      <tr><td><a href="https://fluz.app/store/advantis-credit-union">Advantis Credit Union</a></td><td>Loan and credit-card bill payments; now a division of Rivermark Community Credit Union</td><td>Verify the current account/payment identity first</td></tr>
+      <tr><td><a href="https://fluz.app/store/affinity-federal-credit-union">Affinity Federal Credit Union</a></td><td>Loan and credit-card bill payments</td><td>2.1% advertised; account-match priority</td></tr>
+      <tr><td><a href="https://fluz.app/store/chicago-area-office-credit-union">Chicago Area Office Credit Union</a></td><td>Credit-union payment page</td><td>Account-match priority</td></tr>
+      <tr><td><a href="https://fluz.app/store/community-powered-credit-union">Community Powered Credit Union</a></td><td>Credit-union payment page</td><td>Account-match priority</td></tr>
+      <tr><td><a href="https://fluz.app/store/dover-federal-credit-union">Dover Federal Credit Union</a></td><td>Cashback-card payment flow</td><td>Account-match priority</td></tr>
+      <tr><td><a href="https://fluz.app/store/gp-federal-credit-union">GP Federal Credit Union</a></td><td>Loan payments; institution merged into Credit Union 1</td><td>Verify current account/payment identity first</td></tr>
+      <tr><td><a href="https://fluz.app/store/justice-federal-credit-union">Justice Federal Credit Union</a></td><td>Auto-loan, mortgage and bill payments</td><td>Account-match priority</td></tr>
+      <tr><td><a href="https://fluz.app/store/kauai-community-federal-credit-union">Kauai Federal Credit Union</a></td><td>Loan payments</td><td>Account-match priority</td></tr>
+      <tr><td><a href="https://fluz.app/store/keesler-federal-credit-union">Keesler Federal Credit Union</a></td><td>Auto-loan, mortgage and credit-card payments</td><td>Account-match priority</td></tr>
+      <tr><td><a href="https://fluz.app/store/Logix-Federal-Credit-Union">Logix Federal Credit Union</a></td><td>Loan payments</td><td>Account-match priority</td></tr>
+      <tr><td><a href="https://fluz.app/store/mccoy-federal-credit-union">McCoy Federal Credit Union</a></td><td>Auto-loan and other payments</td><td>Account-match priority</td></tr>
+      <tr><td><a href="https://fluz.app/store/nrl-federal-credit-union">NRL Federal Credit Union</a></td><td>Loan payments</td><td>Account-match priority</td></tr>
+      <tr><td><a href="https://fluz.app/store/numerica-credit-union">Numerica Credit Union</a></td><td>Virtual-card payment page; 1.5% advertised and no displayed count</td><td>Newly discovered account-match priority</td></tr>
+      <tr><td><a href="https://fluz.app/store/oklahoma-central-credit-union">Oklahoma Central Credit Union</a></td><td>Virtual-card payment page; 1.5% advertised and no displayed count</td><td>Newly discovered account-match priority</td></tr>
+      <tr><td><a href="https://fluz.app/store/on-tap-credit-union">On Tap Credit Union</a></td><td>Virtual-card payment page; 1.5% advertised and no displayed count</td><td>Newly discovered account-match priority</td></tr>
+      <tr><td><a href="https://fluz.app/store/oneaz-credit-union">OneAZ Credit Union</a></td><td>Virtual-card payment page; 1.5% advertised and no displayed count</td><td>Newly discovered account-match priority</td></tr>
+      <tr><td><a href="https://fluz.app/store/oregon-community-credit-union">Oregon Community Credit Union</a></td><td>Virtual-card payment page; 1.5% advertised and no displayed count</td><td>Newly discovered account-match priority</td></tr>
+      <tr><td><a href="https://fluz.app/store/orion-fcu">ORION Federal Credit Union</a></td><td>Virtual-card payment page; 1.5% advertised and no displayed count</td><td>Newly discovered account-match priority</td></tr>
+      <tr><td><a href="https://fluz.app/store/orlando-credit-union">Orlando Credit Union</a></td><td>Virtual-card payment page; 1.5% advertised and no displayed count</td><td>Newly discovered account-match priority</td></tr>
+      <tr><td><a href="https://fluz.app/store/palmetto-citizens-federal-credit-union">Palmetto Citizens Federal Credit Union</a></td><td>Virtual-card payment page; 1.5% advertised and no displayed count</td><td>Newly discovered account-match priority</td></tr>
+      <tr><td><a href="https://fluz.app/store/university-of-illinois-community-credit-union">University of Illinois Community Credit Union</a></td><td>Virtual-card payment page despite misleading gift-card wording</td><td>Account-match priority</td></tr>
+    </tbody>
+  </table></div>
+
+  <h2>Credit-union terms watch — currently 0%, no count</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Credit union</th><th>Evidence</th><th>Suggested handling</th></tr></thead>
+    <tbody>
+      <tr><td><a href="https://fluz.app/store/consumers-credit-union">Consumers Credit Union</a></td><td>Reported as formerly/currently accepting Fluz debit; current offer 0%</td><td>Keep for terms changes</td></tr>
+      <tr><td><a href="https://fluz.app/store/abound">Abound Credit Union</a></td><td>Loan and credit-card bill-payment copy; current offer 0%</td><td>Keep for terms changes</td></tr>
+      <tr><td><a href="https://fluz.app/store/del-one-federal-credit-union">Del-One Federal Credit Union</a></td><td>Loan-payment copy; current offer 0%</td><td>Keep for terms changes</td></tr>
+      <tr><td><a href="https://fluz.app/store/hiway-federal-credit-union">Hiway Federal Credit Union</a></td><td>Merged into Blaze Credit Union; current offer 0%</td><td>Verify identity and watch terms</td></tr>
+    </tbody>
+  </table></div>
+
+  <h2>Other direct-payment candidates — no count</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Merchant</th><th>Advertised reward</th><th>Payment context</th></tr></thead>
+    <tbody>
+      <tr><td><a href="https://fluz.app/store/acorns">Acorns</a></td><td>1.5%</td><td>Investment-account funding</td></tr>
+      <tr><td><a href="https://fluz.app/store/affirm">Affirm</a></td><td>1.5%</td><td>Installment-loan payments</td></tr>
+      <tr><td><a href="https://fluz.app/store/afripay">Afripay</a></td><td>1.5%</td><td>Digital payments, deposits, account management and remittance</td></tr>
+      <tr><td><a href="https://fluz.app/store/agia-insurance">AGIA Insurance</a></td><td>1.5%</td><td>Life, health, accident and supplemental insurance payments</td></tr>
+      <tr><td><a href="https://fluz.app/store/ahavas-chesed">Ahavas Chesed</a></td><td>1.5%</td><td>Jewish nonprofit charitable-support and community-service donations</td></tr>
+      <tr><td><a href="https://fluz.app/store/aep-misc-payment">AEP Misc Payment</a></td><td>1.5%</td><td>AEP electricity accounts, miscellaneous billing and account adjustments</td></tr>
+      <tr><td><a href="https://fluz.app/store/AES-Indiana">AES Indiana</a></td><td>3% on first $100; 0.35% thereafter</td><td>Indiana electricity bills</td></tr>
+      <tr><td><a href="https://fluz.app/store/action-carting-environmental-services">Action Carting Environmental Services</a></td><td>1.5%</td><td>Commercial waste-service payments</td></tr>
+      <tr><td><a href="https://fluz.app/store/active-network">ACTIVE Network</a></td><td>1.5%</td><td>Event registrations and activity fees; page details are generic</td></tr>
+      <tr><td><a href="https://fluz.app/store/adventistgiving">AdventistGiving</a></td><td>1.5%</td><td>Religious tithes and online donations</td></tr>
+      <tr><td><a href="https://fluz.app/store/ActBlue">ActBlue</a></td><td>0.35%</td><td>Political contributions</td></tr>
+      <tr><td><a href="https://fluz.app/store/old-national-bank">Old National Bank</a></td><td>1.5%</td><td>Bank virtual-card payment page; direct acceptance unverified</td></tr>
+      <tr><td><a href="https://fluz.app/store/Omaha-Public-Power-District">Omaha Public Power District</a></td><td>1.5%</td><td>Electric-utility bill payments</td></tr>
+      <tr><td><a href="https://fluz.app/store/onemain-financial">OneMain Financial</a></td><td>1.5%</td><td>Consumer-loan virtual-card payment page; direct acceptance unverified</td></tr>
+      <tr><td><a href="https://fluz.app/store/Opc-Tax-Service-Fee">Opc Tax Service Fee</a></td><td>3% on first $100; 0% thereafter</td><td>Tax-service payment fees</td></tr>
+      <tr><td><a href="https://fluz.app/store/Orange-County">Orange County</a></td><td>1.5%</td><td>County utilities, permits, and public-service payments</td></tr>
+      <tr><td><a href="https://fluz.app/store/orion-financial">Orion Financial</a></td><td>1.5%</td><td>Generic financial-services virtual-card page; direct-payment acceptance unverified</td></tr>
+      <tr><td><a href="https://fluz.app/store/pacific-gas-electric">Pacific Gas &amp; Electric</a></td><td>2% on first $40 of each transaction; 0% thereafter</td><td>Electric and gas utility bill payments</td></tr>
+      <tr><td><a href="https://fluz.app/store/pacific-power">Pacific Power</a></td><td>2% on first $40; 0% thereafter</td><td>Electric-utility bill payments</td></tr>
+      <tr><td><a href="https://fluz.app/store/panda-remit">Panda Remit</a></td><td>1.5%</td><td>International money transfers</td></tr>
+      <tr><td><a href="https://fluz.app/store/park-national-bank">Park National Bank</a></td><td>1.5%</td><td>Bank virtual-card payment page; direct acceptance unverified</td></tr>
+    </tbody>
+  </table></div>
+
+  <h2>Historical promotion evidence</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Merchant</th><th>Evidence</th><th>Status</th></tr></thead>
+    <tbody><tr><td>Comenity Capital Bank</td><td>Up to 2.1%; Mastercard 536708 and Visa 474613</td><td>September 2–October 31, 2025 promotion expired; watch for a replacement</td></tr></tbody>
+  </table></div>
+</main>
+</body>
+</html>
